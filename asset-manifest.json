@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mohsen-Mostfa/static/css/main.bead1db2.css",
-    "main.js": "/Mohsen-Mostfa/static/js/main.e2fe6be3.js",
+    "main.js": "/Mohsen-Mostfa/static/js/main.627350a7.js",
     "static/css/888.2b3a9db4.chunk.css": "/Mohsen-Mostfa/static/css/888.2b3a9db4.chunk.css",
     "static/js/888.e04152e3.chunk.js": "/Mohsen-Mostfa/static/js/888.e04152e3.chunk.js",
     "static/js/787.7da95b79.chunk.js": "/Mohsen-Mostfa/static/js/787.7da95b79.chunk.js",
@@ -47,13 +47,13 @@
     "index.html": "/Mohsen-Mostfa/index.html",
     "static/media/slick.woff": "/Mohsen-Mostfa/static/media/slick.295183786cd8a1389865.woff",
     "main.bead1db2.css.map": "/Mohsen-Mostfa/static/css/main.bead1db2.css.map",
-    "main.e2fe6be3.js.map": "/Mohsen-Mostfa/static/js/main.e2fe6be3.js.map",
+    "main.627350a7.js.map": "/Mohsen-Mostfa/static/js/main.627350a7.js.map",
     "888.2b3a9db4.chunk.css.map": "/Mohsen-Mostfa/static/css/888.2b3a9db4.chunk.css.map",
     "888.e04152e3.chunk.js.map": "/Mohsen-Mostfa/static/js/888.e04152e3.chunk.js.map",
     "787.7da95b79.chunk.js.map": "/Mohsen-Mostfa/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bead1db2.css",
-    "static/js/main.e2fe6be3.js"
+    "static/js/main.627350a7.js"
   ]
 }

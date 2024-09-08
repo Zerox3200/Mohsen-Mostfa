@@ -1,0 +1,54 @@
+@use '../../../helpers/functions' as *;
+
+.Projects {
+    h1 {
+        @include SectionsTitle();
+    }
+
+    .card {
+        width: calc(98%/2);
+
+        @include Breakpoints(medium) {
+            width: 90%;
+        }
+
+        @include Breakpoints(small) {
+            width: 90%;
+        }
+
+        @include Breakpoints(mobile) {
+            width: 95%;
+        }
+
+        h2 {
+            color: $BaseColor;
+        }
+
+        p {
+            color: whitesmoke;
+        }
+
+        background-color: #0e0f11;
+        border-color: $BaseColor;
+
+        .HR {
+            color: $BaseColor;
+        }
+
+        img {
+            height: 300px !important;
+            object-fit: cover;
+            height: max-content;
+        }
+
+        a {
+            background-color: $BaseColor;
+            color: whitesmoke;
+
+            &:hover {
+                background-color: rgba($BaseColor, 0.7);
+            }
+        }
+
+    }
+}

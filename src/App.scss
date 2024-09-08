@@ -1,0 +1,26 @@
+@use './helpers/functions' as *;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  position: relative;
+  background-color: #0e0f11 !important;
+
+  &::-webkit-scrollbar {
+    width: 13px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: black;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $BaseColor;
+  }
+}

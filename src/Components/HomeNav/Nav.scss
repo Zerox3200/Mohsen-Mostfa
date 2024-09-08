@@ -1,0 +1,188 @@
+@use './../../helpers/functions' as *;
+
+.dropback {
+    @include Breakpoints(mobile) {
+        background-color: #00000070;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.7s linear all;
+    }
+
+    &.apper-dropback {
+        visibility: visible;
+        opacity: 1;
+        transition: 0.7s linear all;
+    }
+}
+
+.bars {
+    font-size: 30px;
+    padding: 10px;
+    color: $BaseColor;
+    background-color: black;
+    position: fixed;
+    border-radius: 50%;
+    right: 40px;
+    bottom: 30px;
+    opacity: 0;
+    width: 66px;
+    height: 66px;
+    text-align: center;
+
+    svg {
+        font-size: 35px;
+    }
+
+    @include Breakpoints(mobile) {
+        opacity: 1;
+        z-index: 10;
+    }
+}
+
+.allnav {
+    z-index: 10;
+
+
+    .CloseIcon {
+        color: $BaseColor;
+        cursor: pointer;
+    }
+
+    .Active {
+        color: white !important;
+        background-color: $BaseColor !important;
+
+        width: 104% !important;
+    }
+
+    @include Breakpoints(mobile) {
+        transition: 0.7s linear all;
+        position: fixed;
+        height: 100%;
+
+        // transform: scale(0, 1);
+        // opacity: 0;
+        // transform-origin: -120px 20px;
+        transform: translateX(0px);
+    }
+
+    &.apper {
+        @include Breakpoints(mobile) {
+            transition: 0.7s linear all;
+            // transform-origin: -120px 0px;
+            // transform: scale(1, 1);
+            // opacity: 1;
+            transform: translateX(-400px);
+        }
+    }
+}
+
+nav {
+    &::-webkit-scrollbar {
+        width: 2px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background: black;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: $BaseColor;
+    }
+
+}
+
+aside {
+    position: relative;
+
+
+    @include Breakpoints(mobile) {
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+
+    .Remove_hover {
+        &:hover {
+            background-color: transparent !important;
+        }
+    }
+
+    .Logout {
+        position: absolute !important;
+        bottom: 10px;
+
+        &:hover {
+            color: white !important;
+        }
+    }
+
+    .main-side {
+        overflow: hidden;
+        background-color: black;
+        position: fixed;
+        width: 250px;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        transition: 0.3s linear all;
+
+
+
+        &.collapsed {
+            width: 78px;
+            transition: 0.3s linear all;
+        }
+
+        .menu-items {
+            color: $BaseColor;
+            margin: 5px 0px 5px 0px;
+            position: relative;
+            right: 3px;
+            transition: linear 0.5s all;
+
+            svg {
+                transition: linear 0.5s all;
+            }
+
+            &:hover {
+                svg {
+                    color: white !important;
+                }
+
+                color:white !important;
+                background-color: $BaseColor;
+            }
+        }
+
+        .Logo {
+            width: 120px;
+            transition: 0.3s linear all;
+            border-radius: 50%;
+        }
+
+        .Logo-colaps {
+            width: 60px;
+            transition: 0.3s linear all;
+            border-radius: 50%;
+        }
+
+        .icon {
+            color: $BaseColor;
+            font-size: 22px;
+        }
+    }
+}
+
+.css-1t8x7v1>.ps-menu-button:hover {
+    background-color: $BaseColor !important;
+    color: white !important;
+}

@@ -1,0 +1,28 @@
+@use '../../../helpers/functions' as *;
+
+footer {
+    border-top: solid $BaseColor 1px;
+    height: 200px;
+    color: white;
+
+    a {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: $BaseColor;
+        color: white;
+        transition: 0.5s linear all;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        svg {
+            font-size: 20px;
+        }
+
+        &:hover {
+            background-color: rgba($BaseColor, 0.6);
+        }
+
+    }
+}

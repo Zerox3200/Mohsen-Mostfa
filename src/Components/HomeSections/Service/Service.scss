@@ -1,0 +1,30 @@
+@use './../../../helpers/functions' as *;
+
+.Service {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    color: whitesmoke;
+
+    p {
+        margin-top: 10px;
+    }
+
+    .Service_title {
+        @include SectionsTitle();
+        width: max-content !important;
+    }
+
+    h1 {
+        @include SectionsTitle();
+        width: 100%;
+    }
+
+    .Services {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        height: max-content;
+    }
+}

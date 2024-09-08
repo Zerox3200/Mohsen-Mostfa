@@ -13,7 +13,7 @@ export default function ResumeIntro() {
             <ul>
                 <li>10 Shapaan Mosa , Ain Shames</li>
                 <li>+20 102 556 5499</li>
-                <li>mohsen.mostafa83555 @gmail.com</li>
+                <li>mohsenmostafa833@hotmail.com</li>
             </ul>
         </div>
     )

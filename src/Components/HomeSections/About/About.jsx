@@ -45,7 +45,7 @@ function About() {
                         <p><ArrowForwardIosIcon />  <b>Age</b> 41 </p>
                         <p><ArrowForwardIosIcon />  <b>Degree</b> Bachelor</p>
                         <p><ArrowForwardIosIcon />  <b>Phone</b> +20 102 556 5499</p>
-                        <p><ArrowForwardIosIcon />  <b>Email</b> mohsen.mostafa83555@gmail.com</p>
+                        <p><ArrowForwardIosIcon />  <b>Email</b> mohsenmostafa833@hotmail.com</p>
                         <p><ArrowForwardIosIcon />  <b>Country</b> Egypt</p>
                         <p><ArrowForwardIosIcon />  <b>City</b> Cairo</p>
                         <p><ArrowForwardIosIcon />  <b>Freelance</b> Available</p>

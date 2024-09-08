@@ -30,8 +30,8 @@ function About() {
                     animate={InView && { opacity: 1, x: 0 }}
                     transition={{ duration: .8, ease: "linear", delay: .3 }}
                 >
-                    <h3 ref={ref}>Data Scientist</h3>
-                    <p>As an AI Researcher, Data Scientist, and AI Developer, I bridge the gap between theoretical advancements
+                    <h3 ref={ref}>AI Developer</h3>
+                    <p>As an AI Researcher, and AI Developer, I bridge the gap between theoretical advancements
                         and real-world applications. My work focuses on leveraging machine learning and artificial intelligence
                         to extract actionable insights from data, build predictive models, and develop intelligent systems. I
                         conduct cutting-edge research to explore new algorithms and techniques, while applying my expertise in

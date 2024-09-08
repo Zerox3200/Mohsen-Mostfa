@@ -14,12 +14,11 @@ function Intro() {
                 >Mohsen Mostafa</motion.h1>
                 <TypeAnimation
                     sequence={[
-                        `I'm Data Scientist `,
+                        `I'm AI Developer `,
                         1000,
                         `I'm AI Researcher `,
                         1000,
-                        `I'm AI Developer `,
-                        1000
+
                     ]}
                     wrapper="span"
                     speed={50}

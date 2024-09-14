@@ -12,10 +12,32 @@ import ASNR from '../../../Images/ANSR.jpeg'
 import Traf from '../../../Images/Trafiic.jpeg'
 import Image from '../../../Images/Image.jpeg'
 import Speech from '../../../Images/Speech.jpeg'
-import Interview from '../../../Images/Interview.png'
+import Interview from '../../../Images/Interview.png';
+import ChatPot from '../../../Images/ChatPot.png';
+import Smart from '../../../Images/Smart.png'
 
 
 export const AllProjects = [
+
+    {
+        image: Smart,
+        Title: "Smart-Order-Dispatcher",
+        Description: `Automate the process of handling program orders from customers and forwarding them to specific 
+        employees using NLP techniques. This approach will save time, reduce manual effort, and ensure that the right
+        employees receive the necessary information promptly. If you need help setting up a specific part of this
+        workflow or selecting the right tools/models, feel free to ask! a step-by-step guide with code to automate
+        handling program orders from customer emails and sending them to specific employees using NLP. We'll use Python,
+        spaCy for NLP, and smtplib for email automation. The code will cover the basic flow: Step 1: Set Up Email Reading.`,
+        RepoLink: "https://github.com/MohsenMostafa1/Smart-Order-Dispatcher"
+    },
+    {
+        image: ChatPot,
+        Title: "Chatbot-for-Text-and-Voice-Interaction",
+        Description: `In today's digital landscape, chatbots have emerged as pivotal tools for enhancing user interaction 
+        across various platforms. These intelligent systems can engage users through text or voice, providing a seamless
+        experience that caters to individual preferences.`,
+        RepoLink: "https://github.com/MohsenMostafa1/Chatbot-for-Text-and-Voice-Interaction"
+    },
     {
         image: NPL,
         Title: "NLP-with-Disaster-Tweets",

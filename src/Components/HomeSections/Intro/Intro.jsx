@@ -16,7 +16,7 @@ function Intro() {
                     sequence={[
                         `I'm AI Developer `,
                         1000,
-                        `I'm AI Researcher `,
+                        `I'm Senior Machine Learning Engineer`,
                         1000,
 
                     ]}

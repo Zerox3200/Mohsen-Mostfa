@@ -10,7 +10,8 @@ function About() {
         <section className="About px-5" id='About' >
             <div className="About_pt1">
                 <h2>About</h2>
-                <p>Welcome to My Porftolio! As an AI Researcher, Data Scientist, and AI Developer, I leverage advanced
+                <p>Welcome to My Porftolio! As an AI Researcher, Senior Machine Learning Engineer
+                    , and AI Developer, I leverage advanced
                     machine learning techniques and data-driven insights to solve complex problems. I specialize in
                     designing, training, and deploying cutting-edge AI models, while continuously exploring new algorithms
                     and methods to improve performance. My expertise in data science allows me to analyze large datasets,
@@ -50,14 +51,19 @@ function About() {
                         <p><ArrowForwardIosIcon />  <b>City</b> Cairo</p>
                         <p><ArrowForwardIosIcon />  <b>Freelance</b> Available</p>
                     </div>
-                    <p>Maintainable code that leverages the power of reusable algorithms and frameworks, ensuring efficient
-                        AI and data-driven solutions. I believe in the art of simplicity and precision, where every line of
-                        code serves a purpose, contributing to the accuracy and performance of AI models and data pipelines.
-                        By harnessing the capabilities of cutting-edge AI libraries and tools, I optimize workflows, boosting
-                        productivity without compromising on quality. Whether it's developing novel machine learning models,
-                        conducting deep data analysis, or architecting scalable AI systems, I adhere to best practices that
-                        drive innovation and efficiency. Explore my portfolio to see how I combine clean code principles with
-                        powerful AI frameworks to create impactful solutions.
+                    <p>Model Development: Design and develop machine learning models using various algorithms and techniques (e.g., supervised, unsupervised, reinforcement learning).
+                        Data Management: Collect, preprocess, and analyze large datasets; ensure data quality and integrity.
+                        Feature Engineering: Identify and create relevant features that improve model performance.
+                        Algorithm Optimization: Optimize existing models for performance and scalability.
+                        Deployment: Implement machine learning models into production systems; work with DevOps to streamline deployment pipelines.
+                        Collaboration: Work closely with data scientists, software engineers, and product teams to integrate ML solutions into products.
+                        Research: Stay updated with the latest trends and advancements in machine learning and AI; apply new techniques as appropriate.
+                        Mentorship: Provide guidance and mentorship to junior engineers and interns.
+                        Performance Monitoring: Monitor and evaluate model performance, and make improvements as necessary.
+                        Documentation: Maintain comprehensive documentation for models, algorithms, and systems.
+                        Experience: 5+ years of experience in machine learning, data science, or related fields.
+
+
                     </p>
                 </motion.div>
             </div>

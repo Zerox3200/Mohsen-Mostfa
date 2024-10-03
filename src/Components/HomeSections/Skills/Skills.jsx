@@ -47,6 +47,7 @@ function Skills() {
                         {SoftSkills.map((skill, index) =>
                             <SkillLoader key={index} Precentage={skill.Precentage} Title={skill.Title} />)}
                     </div>
+
                 </div>
             </div>
         </section>

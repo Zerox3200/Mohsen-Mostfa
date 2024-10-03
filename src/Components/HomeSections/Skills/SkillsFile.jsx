@@ -48,6 +48,18 @@ export const AIDevelopingSkills = [
     {
         Title: "Communication and collaboration",
         Precentage: "87%"
+    }, {
+        Title: "Proficiency in programming languages such as Python, R, or Java",
+        Precentage: "92%"
+    }, {
+        Title: "Experience with ML frameworks and libraries (e.g., TensorFlow, PyTorch, scikit-learn",
+        Precentage: "95%"
+    }, {
+        Title: `Strong knowledge of statistics and mathematical foundations of machine learning`,
+        Precentage: "96%"
+    }, {
+        Title: `Familiarity with big data technologies (e.g., Hadoop, Spark) and cloud platforms (e.g., AWS, GCP, Azure)`,
+        Precentage: "97%"
     }
 ]
 
@@ -57,7 +69,7 @@ export const SoftSkills = [
         Precentage: "97%"
     },
     {
-        Title: "Analytical thinking",
+        Title: "Excellent problem-solving and analytical skills.",
         Precentage: "93%"
     },
     {
@@ -77,7 +89,7 @@ export const SoftSkills = [
         Precentage: "92%"
     },
     {
-        Title: "Communication and collaboration",
+        Title: `Strong communication skills to explain complex concepts to non-technical stakeholders`,
         Precentage: "93%"
     }
 ]
